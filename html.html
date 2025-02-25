@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Donald Trump: A Timeline</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f9fc;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #333;
+    }
+    h1 {
+      margin: 40px 0;
+      font-size: 2.5rem;
+    }
+    .timeline-container {
+      position: relative;
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 0;
+    }
+    .timeline-line {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: #3182ce;
+      transform: translateX(-50%);
+    }
+    .timeline-item {
+      position: relative;
+      margin: 40px 0;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 45%;
+    }
+    .timeline-item:nth-child(odd) {
+      left: 0;
+    }
+    .timeline-item:nth-child(even) {
+      left: 55%;
+    }
+    .timeline-item .year {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+    .timeline-item .description {
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+    @media (max-width: 768px) {
+      .timeline-item {
+        width: 90%;
+        left: 5% !important;
+        margin: 20px auto;
+      }
+      .timeline-line {
+        left: 10%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Donald Trump: A Timeline</h1>
+  <div class="timeline-container">
+    <div class="timeline-line"></div>
+    
+    <div class="timeline-item">
+      <div class="year">1946</div>
+      <div class="description">
+        Born on June 14 in Queens, New York – a humble beginning for a future icon of controversy.
+      </div>
+    </div>
+    
+    <div class="timeline-item">
+      <div class="year">1968</div>
+      <div class="description">
+        Graduates from the Wharton School with an economics degree. Who knew a love for money started in college?
+      </div>
+    </div>
+    
+    <div class="timeline-item">
+      <div class="year">1971</div>
+      <div class="description">
+        Takes over his father's real estate empire and rebrands it as The Trump Organization – enter the world of gilded towers and even gildier ambitions.
+      </div>
+    </div>
+    
+    <div class="timeline-item">
+      <div class="year">1980s-1990s</div>
+      <div class="description">
+        Expands into luxury real estate by building Trump Tower and opening casinos, while also enduring a few financial meltdowns. Even moguls have their messy moments.
+      </div>
+    </div>
+    
+    <div class="timeline-item">
+      <div class="year">2004</div>
+      <div class="description">
+        Becomes a reality TV star as the host of <em>The Apprentice</em>, turning “You’re fired!” into a catchphrase that echoes through boardrooms and Twitter feeds.
+      </div>
+    </div>
+    
+    <div class="timeline-item">
+      <div class="year">2015</div>
+      <div class="description">
+        Announces his candidacy for U.S. president as a Republican on an “America First” platform – the political stage just got its own reality show.
+      </div>
+    </div>
+    
+    <div class="timeline-item">
+      <div class="year">2016</div>
+      <div class="description">
+        Wins the U.S. presidential election against Hillary Clinton – a victory that left pundits and memes scrambling.
+      </div>
+    </div>
+    
+    <div class="timeline-item">
+      <div class="year">2017-2021</div>
+      <div class="description">
+        Serves as the 45th president. Over these turbulent years, he passes major tax cuts, appoints three conservative Supreme Court justices, and implements strict immigration policies. In 2020, he loses re-election amid controversy, and in early 2021, his supporters storm the Capitol leading to a historic second impeachment (from which he is acquitted). Chaos and executive orders, all in one term.
+      </div>
+    </div>
+    
+    <div class="timeline-item">
+      <div class="year">2022-2023</div>
+      <div class="description">
+        Faces multiple legal investigations yet remains a key figure in the Republican Party – because drama never really leaves the stage.
+      </div>
+    </div>
+    
+    <div class="timeline-item">
+      <div class="year">2024</div>
+      <div class="description">
+        Announces another presidential run, aiming for a political comeback. The saga continues – grab your popcorn.
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
